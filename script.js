@@ -127,3 +127,21 @@
 
 // Snack 3
 
+// function invertiStringa(str) {
+//     return str.split('').reverse().join('');
+//   }
+
+//   console.log(invertiStringa(("reverse")));
+
+// Snack 4 
+
+let aUno = ["a", "b", "c", "d"];
+let aDue = ["1", "2", "3", "4"];
+let aTre = [];
+
+for (let i = 0; i < aUno.length; i++) {
+    aTre.push(aUno[i]);
+    aTre.push(aDue[i]);
+}
+
+console.log(aTre);
